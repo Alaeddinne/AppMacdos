@@ -1,0 +1,7 @@
+<input #box (keyup)="onKey(box.value)">
+
+<ul>
+    <li *ngFor="let Macdos of ListMacdos" id="idListMacdos">{{Macdos}}</li>
+</ul>
+
+<router-outlet></router-outlet>
